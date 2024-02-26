@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    background-color: #f1f1f2;
+    color:black;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #a1d6e2;
+    height:16vh;
+}
+.navbar-left{
+    padding-left:10px;
+    color:black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 40px;
+}
+.navbar-right{
+    padding-right:20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center ;
+    color:black;
+
+}
+.a-element{
+    padding:10px;
+    margin:10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight:700;
+    color:black;
+    text-decoration: none;
+    
+
+}
+.home
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height:85vh;
+
+}
+.home-left{
+    width:50vw;
+    text-align:left;
+    padding:50px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.home-right{
+    width:50vw;
+    padding-left:300px;
+}
+.my-img{
+    height:300px;
+}
+.projects{
+    padding:30px;
+    text-align: center;
+}
+.pro-h1{
+    font-family: "Quicksand", sans-serif;
+    color:#1995ad;
+    letter-spacing: 2px;
+    font-size:50px;
+    font-style:italic;
+}
+.project-sub{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.project-card{
+    border:2px black solid;
+    margin:20px;
+    padding:20px;
+    width:400px;
+    background-color: white;
+}
+.pro-h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.pro-p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.certifications{
+    padding:30px;
+    text-align: center;
+    color:black;
+}
+.certification-sub{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.certification-card{
+    border:2px black solid;
+    margin:20px;
+    padding:20px;
+    width:400px;
+    background-color: white;
+    
+    
+}
+.certifi-h1{
+    font-family: "Quicksand", sans-serif;
+    color:#1995ad;
+    letter-spacing: 2px;
+    font-size:50px;
+    font-style:italic;
+}
+.certi-h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: bold; 
+    color:black;  
+}
+
+.a-class{
+    text-decoration: none;
+    color:black;
+}
+.contact{
+    text-align: center;
+    background-color:#1995ad;
+}
+
+.social-icon-img{
+    height:50px;
+    padding:50px;
+}
+.contact-info{
+    font-family: "Quicksand", sans-serif;
+    color:white;
+    letter-spacing: 2px;
+    font-size:20px;
+    font-style:bold;
+    
+}
+.logo{
+    background-color: white;
+    margin-right:2px;
+    font-weight: 500;
+    font-size: 80px;
+
+}
